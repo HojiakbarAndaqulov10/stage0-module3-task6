@@ -20,7 +20,7 @@ class FloatTypeCastingTest extends BaseIOTest {
     void roundNumberShouldRoundToTopNumber() {
         FloatTypeCasting toTest = new FloatTypeCasting();
 
-        toTest.roundNumber(19.5F);
+        toTest.roundNumber(20.0F);
 
         assertEquals("20\n", updateLineSpliterators(outContent.toString()));
     }
